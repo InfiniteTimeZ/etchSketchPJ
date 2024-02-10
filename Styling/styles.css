@@ -1,0 +1,22 @@
+#headContainer{
+    text-align: center;
+    font-size: calc(1.5em + 1vmin);
+}
+#outerBox{
+display: flex;
+margin: auto;
+background-color: red;
+height: 50vw;
+width: 60vw;
+border-radius: 5%;
+align-items: center;
+
+}
+#innerBox{
+margin: auto;
+margin-top: 10px;
+background-color: white;
+width:90%;
+height: 80%;
+border-radius: 5%;
+}
