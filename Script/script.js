@@ -1,4 +1,4 @@
-const grid = document.querySelector("#innerBox");
+const grid = document.querySelector("#tbBox");
 const changeSize = document.querySelector("#chngS")
 let getNum = 0;
 
@@ -14,7 +14,7 @@ document.getElementById("chngS").addEventListener('click', function(){
 });
 
 function createGrid(){
-  if (getNum < 64 || getNum > 2){  
+  if (getNum < 100 || getNum > 2){  
     for(i = 0; i < getNum; i++){
         const tr = document.createElement('tr');
         tr.classList.add("trR")
