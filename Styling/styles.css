@@ -16,7 +16,7 @@ flex-direction: column;
 
 }
 #innerBox{
-border: solid black 1px;
+border: solid black 10px;
 margin: auto;
 margin-top: 10px;
 background-color: white;
@@ -34,4 +34,9 @@ border: black solid 10px;
     align-items: center;
     padding: 8px 10px 20px 10px ;
     
+}
+tr,
+td {
+    padding: 0;
+    margin: 0;
 }
